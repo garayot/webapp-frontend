@@ -17,7 +17,8 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-
+        
+        @include('layouts.navbar')
         @yield ('content')
         
         <!-- Bootstrap core JS-->
